@@ -1,0 +1,80 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Tambahkan latar belakang lembut */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk efek elegan */
+    border-radius: 8px; /* Tambahkan sudut yang melengkung */
+  }
+  
+  fieldset {
+    border: 1px solid #ddd; /* Ubah warna border untuk tampilan yang lebih halus */
+    padding: 20px; /* Tambahkan sedikit padding untuk ruang lebih besar */
+    margin-bottom: 20px;
+    border-radius: 6px; /* Border melengkung */
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 1.2em; /* Sedikit lebih besar untuk penekanan */
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Sedikit lebih banyak ruang di antara grup */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600; /* Buat label lebih tegas */
+    color: #333; /* Warna lebih gelap untuk kontras yang lebih baik */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd; /* Border yang lebih halus */
+    border-radius: 6px; /* Sedikit melengkung untuk tampilan lebih modern */
+    font-size: 1em;
+    background-color: #fff;
+    transition: border-color 0.3s ease; /* Animasi halus saat fokus */
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    border-color: #007bff; /* Warna biru saat fokus */
+    outline: none;
+  }
+  
+  textarea {
+    height: 120px; /* Sedikit lebih tinggi untuk kenyamanan */
+  }
+  
+  button[type="submit"] {
+    background-color: #3cfa02; /* Biru profesional */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    
+    font-weight: 600;
+
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animasi saat hover */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #48ff00; /* Warna yang lebih gelap saat hover */
+    transform: scale(1.05); /* Sedikit memperbesar saat hover */
+  }
+  
+  button[type="submit"]:active {
+    background-color: #3cff00; /* Warna lebih gelap saat diklik */
+  }
+  
+  
